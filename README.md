@@ -1,30 +1,31 @@
-# 🧪 Testing RESTful Booker API
+# 🧪 Тестирование RESTful Booker API
 
-This repository contains the results of **manual API testing** for the [**Restful Booker**](https://restful-booker.herokuapp.com/apidoc/index.html#api-Booking-GetBookings) service — an open REST API designed for performing booking-related operations.
+Этот репозиторий содержит результаты ручного тестирования API сервиса **Restful Booker** — открытого REST API, предназначенного для выполнения операций, связанных с бронированием.
 
-The goal was to verify the functionality and reliability of key HTTP endpoints, detect validation issues and logical errors, and assess how the API handles incorrect or edge-case input.
+Целью тестирования было проверить **функциональность и надёжность** основных HTTP-эндпоинтов, выявить ошибки валидации и логические несоответствия, а также оценить, как API обрабатывает некорректные или граничные данные.
 
-## ✅ What Was Done
+## ✅ Что было сделано
 
-* Thoroughly studied the API documentation
-* Created positive and negative test cases for main endpoints
-* Performed manual testing using Postman
-* Identified several issues related to validation and response consistency
-* Prepared a Postman collection for reuse and automation
-* Documented all bugs in a structured bug report
+* Изучена документация API
+* Составлены **позитивные и негативные тест-кейсы** для основных эндпоинтов
+* Проведено ручное тестирование с помощью **Postman**
+* Найдены проблемы, связанные с валидацией и согласованностью ответов
+* Подготовлена **Postman-коллекция** для повторного использования и возможной автоматизации
+* Все дефекты оформлены в структурированные **баг-репорты**
 
-## 🛠 Tools Used
+## 🛠 Использованные инструменты
 
-* **Postman** — for creating and sending HTTP requests
-* **Google Sheets** — for managing test cases and documenting bugs
-* **Git & GitHub** — for version control and storing deliverables
+* **Postman** — для создания и отправки HTTP-запросов
+* **Google Sheets** — для ведения тест-кейсов и баг-репортов
+* **Git & GitHub** — для контроля версий и хранения материалов проекта
 
-## 📂 Project Materials
+## 📂 Материалы проекта
 
-* 📄 [**Test Cases**](https://docs.google.com/spreadsheets/d/1QBitPSINZDoSrDOf2GWdSh1tXaVsIRN__SMsyBDLpXI/edit?usp=sharing): A spreadsheet containing detailed positive and negative scenarios. Each case includes test ID, description, steps, input data, and expected result.
+📄 **[Тест-кейсы](https://docs.google.com/spreadsheets/d/1QBitPSINZDoSrDOf2GWdSh1tXaVsIRN__SMsyBDLpXI/edit?usp=sharing)** — таблица с подробными позитивными и негативными сценариями.
+Каждый кейс включает ID, описание, шаги, входные данные и ожидаемый результат.
 
-* 🐞 [**Bug Reports**](https://docs.google.com/spreadsheets/d/1gh4ofSpRUQXhiqXDAgzQsP3jjAl_iS8iJBxBJVTIxIg/edit?usp=sharing): A collection of identified bugs, including reproduction steps, expected vs. actual behavior, severity, and priority.
+🐞 **[Баг-репорты](https://docs.google.com/spreadsheets/d/1gh4ofSpRUQXhiqXDAgzQsP3jjAl_iS8iJBxBJVTIxIg/edit?usp=sharing)** — список найденных дефектов с шагами воспроизведения, описанием ожидаемого и фактического поведения, а также указанием **серьёзности и приоритета**.
 
-* 📬 [**Postman Collection**](https://www.postman.com/daniil-4430444/restfool-booker/collection/ztg2u3q/restful-booker?action=share&creator=44930248): An exported collection of requests used for manual testing. 
+📬 **[Postman-коллекция](https://www.postman.com/daniil-4430444/restfool-booker/collection/ztg2u3q/restful-booker?action=share&creator=44930248)** — экспортированный набор запросов, использованных в ходе ручного тестирования.
 
-* 📁 [**Postman Collection (JSON Format)**](https://github.com/daniilg17/TestTask/raw/main/Restfool-booker.json): Direct link to the Postman collection `.json` file for quick import into your Postman workspace.
+📁 **[Postman Collection (JSON Format)](https://github.com/daniilg17/TestTask/raw/main/Restfool-booker.json)** — прямая ссылка на `.json` файл коллекции для быстрого импорта в ваш Postman workspace.
